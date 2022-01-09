@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        : = pseudoclasse
+        ::= pseudo elemento
+        > = children
+        */
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a{
+            color: rgb(150, 90, 150);
+            text-decoration: none;
+            font-weight: 100;
+        }
+        a:hover{
+            display: inline;
+            text-decoration: underline;
+        }
+        a:active{
+            background-color: darkslategray;
+        }
+        a::after{
+            content: '[link especial]';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li> <a href="https://github.com/caioneves05">Repositório GitHub</a> </li>
+        <li> <a href="https://www.linkedin.com/in/caio-neves-531a26206/">Canal do Youtube</a> </li>
+        
+    </ul>
+</body>
+</html>
