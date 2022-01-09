@@ -173,7 +173,7 @@ aside h3{
 }
 aside ul{
     list-style-position: inside;
-    list-style-type:'\2714\0020';
+    list-style-type:'\2714\0020\0020';
     columns: 2;
 }
 aside p{
