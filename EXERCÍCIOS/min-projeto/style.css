@@ -36,7 +36,7 @@ header{
 }
 header > p{
     color: white;
-    margin: 30px;
+    margin: 20px;
     font-family: var(--fonte-padrao);
     font-size: 20px;
     text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.644);
