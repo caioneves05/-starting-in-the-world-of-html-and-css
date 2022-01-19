@@ -10,7 +10,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
-            width: 500px;
+            width: 300px;
             border-collapse: collapse;
         }
         td, th{
@@ -24,15 +24,21 @@
         .num{
             text-align: right;
         }
+        caption{
+            padding-bottom: 5px;
+            font-weight: bold;
+            font-size: 1em;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População dos estados</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -63,8 +69,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <th class="num">46 649 132</th>
+                <th scope="row">Total de Habitantes</th>
+                <th class="num" scope="col">46 649 132</th>
             </tr>
         </tfoot>
     </table>
@@ -73,6 +79,7 @@
 
 <!--
     ANATOMIA PARA TABELAS GRANDES
+    CAPTION
     TABLE
         THEAD
         TBODY
