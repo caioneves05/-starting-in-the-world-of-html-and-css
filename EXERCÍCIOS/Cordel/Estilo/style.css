@@ -22,7 +22,7 @@ header{
     background-color: black;
     text-align: center;
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 #Titulo > h1{
     font-family: var(--font2);
