@@ -5,6 +5,9 @@
     main{
         flex-direction: column;
     }
+    li{
+        text-align: center;
+    }
     h2{
         font-size: 38px;
     }
