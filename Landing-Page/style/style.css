@@ -23,6 +23,7 @@ header{
 h2{
     line-height: 10px;
     font-size: 50px;
+    min-width: 500px;
 }
 span{
     color: #8db8c4;
