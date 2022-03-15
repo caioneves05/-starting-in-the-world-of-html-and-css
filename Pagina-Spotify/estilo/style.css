@@ -16,7 +16,6 @@ body{
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: color;
-    
 }
 .container{
     background-color: rgb(0, 0, 0, 0.6);
@@ -48,18 +47,23 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    
 }
 .conteudo-principal-titulo{
     font-family: 'Roboto';
     font-size: 2.569rem;
 }
 .conteudo-principal-botao{
-    background-color: #1ed760;
+    background-color: #1db954;
     color: white;
     font-family: 'Roboto';
-    padding: 12px;
-    border-radius: 19px;
+    padding: 15px 20px;
+    border-radius: 22px;
     border: none;
-
+    cursor: pointer;
+    letter-spacing: 1px;
 }
-
+.footer-logo{
+    height: 40px;
+    width: auto;
+}
