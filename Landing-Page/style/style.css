@@ -80,3 +80,8 @@ input{
     color: white;
     font-weight: bolder;
 }
+#submit:hover{
+    background-color: #071d2c;
+    transition: 0.5s;
+    cursor: pointer;
+}
