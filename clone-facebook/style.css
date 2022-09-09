@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f0f5;
+}
+.container{
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+.container > img{
+    width: 240px;
+}
+.container > form{
+    background-color: #ffff;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #dddfe2;
+}
