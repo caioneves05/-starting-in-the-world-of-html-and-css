@@ -20,6 +20,7 @@ body{
     display: flex;
     width: 330px;
     margin: 8px, 0;
+    margin-left: 20px;
     border-radius: 6px;
     font-size: 17px;
     padding: 14px 16px;
@@ -27,6 +28,7 @@ body{
     border: #dddfe2;
 }
 .container-form > button{
+    margin: 10px;
     background-color: #1877F2;
     color: white;
     width: 330px;
