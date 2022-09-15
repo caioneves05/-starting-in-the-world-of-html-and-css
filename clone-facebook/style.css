@@ -54,3 +54,10 @@ body{
 .container-links{
     padding: 20px;
 }
+.container-links > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1877F2;
+    font-size: 15px;
+
+}
