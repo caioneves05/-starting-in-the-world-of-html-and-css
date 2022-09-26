@@ -129,4 +129,11 @@ section > p{
         display: flex;
         flex-direction: column;
     }
+    .proj1,.proj2,.proj3{
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
