@@ -5,10 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criando Formulários</title>
+
+    <script>
+        function verificar(){
+            
+            nome = document.getElementById("nome_usuario").value;
+            if( nome.length == 0){
+                alert('O campo nome é obrigatório!!!')
+                document.getElementById("nome_usuario").focus()
+                return false;
+            }
+            s = document.getElementById("password").value;
+            if (isNaN(s) || s.length() == 0){
+                alert("Preencha o campo senha corretamente!!!");
+                document.getElementById("password").value = " ";
+                document.getElementById("password").focus()
+                return false;
+            }
+            document.getElementById("form1").submit()
+        }
+
+
+
+
+    </script>
+
 </head>
 <body>
     <h1>Aprendendo a fazer um formulário</h1>
-    <form name="Form-aula" method="post" action="formulário.jsp"></form>
+    <form name="Form-aula" method="post" action="formulário.jsp" id="form1"></form>
     <label for="nome">Nome: </label>
     <input type="name" name="nome_usuario" id="nome_usuario">
     <br><br>
@@ -35,7 +60,7 @@
      <label for="nascimento">Data de Nascimento: </label>
     <input type="date" name="nascimento" id="nascimento">
     <br><br>
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Enviar" onclick="verificar()">
     <input type="reset" name="resetar" id="resetar" value="Limpar">
 
 </body>
